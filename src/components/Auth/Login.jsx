@@ -16,8 +16,9 @@ const Login = ({handleLogin}) => {
     }
 
     return (
-        <div className='flex h-screen w-screen items-center justify-center'>
-            <div className='border-2 border-emerald-600 p-20 rounded-xl '>
+        <div className='flex flex-col h-screen w-screen justify-center items-center'>
+            <h1 className='text-[60px] mb-10 font-semibold font-mono text-emerald-600'>Task Manager✅</h1>
+            <div className='border-2 border-emerald-600 p-20 rounded-xl  '>
                 <form
                     onSubmit={(e) => {
                         submitHandler(e);
